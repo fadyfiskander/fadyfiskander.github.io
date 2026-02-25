@@ -40,7 +40,7 @@ export default function Projects({ projects }: ProjectsProps) {
                     alt={`${project.title} preview`}
                     fill
                     sizes="(max-width: 768px) 100vw, (max-width: 1280px) 50vw, 33vw"
-                    className=" transition duration-500 group-hover:scale-[1.04]"
+                    className="transition duration-500 group-hover:scale-[1.04]"
                   />
                 ) : (
                   <div className="grid h-full w-full place-items-center bg-gradient-to-br from-zinc-900 via-zinc-800 to-zinc-950 text-xs uppercase tracking-[0.2em] text-zinc-500">
