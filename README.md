@@ -1,21 +1,17 @@
-# Next.js template
+# fadyfiskander.github.io
 
-This is a Next.js template with shadcn/ui.
+Personal portfolio and project showcase for Fady Fayez, built with Next.js.
 
-## Adding components
-
-To add components to your app, run the following command:
+## Development
 
 ```bash
-npx shadcn@latest add button
+npm run dev
 ```
 
-This will place the ui components in the `components` directory.
+## Available scripts
 
-## Using components
-
-To use the components in your app, import them as follows:
-
-```tsx
-import { Button } from "@/components/ui/button";
-```
+- `npm run dev` — start the development server
+- `npm run build` — create a production build
+- `npm run start` — start the production server
+- `npm run lint` — run ESLint
+- `npm run typecheck` — run TypeScript checks
